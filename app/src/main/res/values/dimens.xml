@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="image_height">81dp</dimen>
-    <dimen name="image_width">144dp</dimen>
-    <integer name="noColumns">4</integer>
+    <dimen name="image_height">126dp</dimen>
+    <dimen name="image_width">224dp</dimen>
+    <integer name="noColumns">3</integer>
 </resources>
