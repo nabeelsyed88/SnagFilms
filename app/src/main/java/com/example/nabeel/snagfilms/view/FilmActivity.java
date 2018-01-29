@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.nabeel.snagfilms.FilmApplication;
@@ -33,6 +34,9 @@ public class FilmActivity extends AppCompatActivity implements FilmContract.View
 
         filmPresenter.attachView(this);
         filmPresenter.getFilms(10);
+
+        TextView textView = findViewById(R.id.tvTop);
+        textView.setText("Nabeel Syed - ViewLift App");
     }
 
     @Override
